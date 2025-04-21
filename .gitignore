@@ -1,0 +1,15 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variables (VERY IMPORTANT, no leaking your API keys)
+.env
+
+# SQLite database files (if you use SQLite for MCP memory)
+*.sqlite
+
+# VSCode settings
+.vscode/
+
+# macOS junk files
+.DS_Store
