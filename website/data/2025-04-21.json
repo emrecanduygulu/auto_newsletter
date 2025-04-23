@@ -1,0 +1,16 @@
+{
+    "date": "2025-04-21",
+    "articles": [
+      {
+        "title": "Celtics Sweep the Sixers",
+        "summary": "Boston completes the sweep with a 112-88 win, led by Tatum’s 35 points.",
+        "url": "https://nba.com/celtics-sweep"
+      },
+      {
+        "title": "OpenAI Unveils GPT-5",
+        "summary": "The next-gen model is said to handle 1 million tokens and support plugins natively.",
+        "url": "https://openai.com/gpt-5"
+      }
+    ]
+  }
+  
