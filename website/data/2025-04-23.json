@@ -1,0 +1,15 @@
+{
+  "date": "2025-04-23",
+  "articles": [
+    {
+      "title": "LeBron Goes Nuclear",
+      "summary": "LeBron dropped 50 in Game 6 to carry the Lakers into Game 7.",
+      "url": "https://espn.com/lebron-goat"
+    },
+    {
+      "title": "Tech Stocks Surge on AI Buzz",
+      "summary": "Nvidia and Microsoft lead a tech rally as Gemini and GPT-5 rumors swirl.",
+      "url": "https://techcrunch.com/ai-hype"
+    }
+  ]
+}
