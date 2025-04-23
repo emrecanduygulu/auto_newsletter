@@ -1,15 +1,29 @@
 {
   "date": "2025-04-23",
-  "articles": [
+  "topics": [
     {
-      "title": "LeBron Goes Nuclear",
-      "summary": "LeBron dropped 50 in Game 6 to carry the Lakers into Game 7.",
-      "url": "https://espn.com/lebron-goat"
+      "name": "NBA",
+      "summary": "LeBron dropped 50 to keep the Lakers alive. Other teams battle in OT.",
+      "resources": [
+        "https://espn.com/lebron-game6",
+        "https://nba.com/playoffs"
+      ]
     },
     {
-      "title": "Tech Stocks Surge on AI Buzz",
-      "summary": "Nvidia and Microsoft lead a tech rally as Gemini and GPT-5 rumors swirl.",
-      "url": "https://techcrunch.com/ai-hype"
+      "name": "AI",
+      "summary": "OpenAI drops GPT-5 while Gemini gets stronger with Flash Lite.",
+      "resources": [
+        "https://openai.com/gpt-5",
+        "https://google.com/gemini-flash"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "summary": "Switch 2 details leaked alongside AI-powered NPC demos.",
+      "resources": [
+        "https://polygon.com/switch-2-leaks"
+      ]
     }
   ]
 }
+

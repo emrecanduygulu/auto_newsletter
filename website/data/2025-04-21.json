@@ -1,16 +1,30 @@
 {
-    "date": "2025-04-21",
-    "articles": [
-      {
-        "title": "Celtics Sweep the Sixers",
-        "summary": "Boston completes the sweep with a 112-88 win, led by Tatum’s 35 points.",
-        "url": "https://nba.com/celtics-sweep"
-      },
-      {
-        "title": "OpenAI Unveils GPT-5",
-        "summary": "The next-gen model is said to handle 1 million tokens and support plugins natively.",
-        "url": "https://openai.com/gpt-5"
-      }
-    ]
-  }
+  "date": "2025-04-23",
+  "topics": [
+    {
+      "name": "NBA",
+      "summary": "LeBron dropped 50 to keep the Lakers alive. Other teams battle in OT.",
+      "resources": [
+        "https://espn.com/lebron-game6",
+        "https://nba.com/playoffs"
+      ]
+    },
+    {
+      "name": "AI",
+      "summary": "OpenAI drops GPT-5 while Gemini gets stronger with Flash Lite.",
+      "resources": [
+        "https://openai.com/gpt-5",
+        "https://google.com/gemini-flash"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "summary": "Switch 2 details leaked alongside AI-powered NPC demos.",
+      "resources": [
+        "https://polygon.com/switch-2-leaks"
+      ]
+    }
+  ]
+}
+
   
