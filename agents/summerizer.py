@@ -1,3 +1,4 @@
+<<<<<<< HEAD:agents/summerizer.py
 import os
 import google.generativeai as genai
 from dotenv import load_dotenv
@@ -29,3 +30,5 @@ Summary:"""
         return response.text.strip()
     except Exception as e:
         return f"[Summary error: {e}]"
+=======
+>>>>>>> parent of 3d829b9 (added the code):agents/summarizer.py
