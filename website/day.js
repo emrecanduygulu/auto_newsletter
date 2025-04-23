@@ -1,25 +1,29 @@
 function getQueryParam(key) {
-    const params = new URLSearchParams(window.location.search);
-    return params.get(key);
-  }
-  
-  const date = getQueryParam("id");
-  document.getElementById("headline").textContent = `📄 Summary for ${date}`;
-  
-  fetch(`./data/${date}.json`)
-    .then(res => res.json())
-    .then(data => {
-      const container = document.getElementById("articles");
-      data.articles.forEach((article, index) => {
-        const block = document.createElement("div");
-        block.className = "article";
-        block.innerHTML = `
-          <h2>${index + 1}. ${article.title}</h2>
-          <p>${article.summary}</p>
-          <a href="${article.url}" target="_blank">Read more</a>
-          <hr/>
-        `;
-        container.appendChild(block);
-      });
+  const params = new URLSearchParams(window.location.search);
+  return params.get(key);
+}
+
+const date = getQueryParam("id");
+document.getElementById("headline").textContent = `📄 Summary for ${date}`;
+
+fetch(`./data/${date}.json`)
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById("articles");
+
+    data.topics.forEach(topic => {
+      const section = document.createElement("div");
+      section.className = "topic-block";
+
+      const links = topic.resources.map(url => `<li><a href="${url}" target="_blank">${url}</a></li>`).join("");
+
+      section.innerHTML = `
+        <h2>🏷️ ${topic.name}</h2>
+        <p>${topic.summary}</p>
+        <ul>${links}</ul>
+        <hr/>
+      `;
+
+      container.appendChild(section);
     });
-  
+  });
