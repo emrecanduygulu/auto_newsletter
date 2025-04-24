@@ -1,0 +1,7 @@
+{
+    "topics": ["NBA", "AI", "Gaming"],
+    "max_articles_per_topic": 5,
+    "summary_style": "brief",
+    "summarizer": "gemini_2.0_flash_lite"
+  }
+  

@@ -10,7 +10,9 @@ load_dotenv()
 # Get your NewsAPI key
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 
-def fetch_news(query="NBA", page_size=5):
+def fetch_news(topic, max_articles):
+    query = topic
+    page_size = max_articles
     """
     Fetch news articles from NewsAPI based on a search query.
     Returns a list of articles (title, description, url).
