@@ -19,6 +19,7 @@ fetch(`./data/${date}.json`)
 
       section.innerHTML = `
         <h2>🏷️ ${topic.name}</h2>
+        ${topic.image ? `<img src="${topic.image}" alt="${topic.name}" class="topic-img" />` : ""}
         <p>${topic.summary}</p>
         <ul>${links}</ul>
         <hr/>
@@ -26,4 +27,8 @@ fetch(`./data/${date}.json`)
 
       container.appendChild(section);
     });
+  })
+  .catch(err => {
+    console.error("❌ Error loading day data:", err);
+    document.getElementById("articles").innerHTML = "<p>Could not load the day's summary.</p>";
   });

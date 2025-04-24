@@ -1,27 +1,12 @@
 {
-  "date": "2025-04-23",
+  "date": "2025-04-21",
   "topics": [
     {
-      "name": "NBA",
-      "summary": "LeBron dropped 50 to keep the Lakers alive. Other teams battle in OT.",
+      "name": "Anna",
+      "summary": "I'M HAVING THE BEST TIME OF MY LIFE WHEN I'M WITH YOU <3",
+      "image": "./images/b1120c96-2036-4152-a7d8-a3c3400c2ca0.jpg",
       "resources": [
-        "https://espn.com/lebron-game6",
-        "https://nba.com/playoffs"
-      ]
-    },
-    {
-      "name": "AI",
-      "summary": "OpenAI drops GPT-5 while Gemini gets stronger with Flash Lite.",
-      "resources": [
-        "https://openai.com/gpt-5",
-        "https://google.com/gemini-flash"
-      ]
-    },
-    {
-      "name": "Gaming",
-      "summary": "Switch 2 details leaked alongside AI-powered NPC demos.",
-      "resources": [
-        "https://polygon.com/switch-2-leaks"
+        "https://www.youtube.com/watch?v=Whe7MURlKLw&pp=ygUUa2hydWFuZ2JpbiB0ZXhhcyBzdW4%3D"
       ]
     }
   ]
