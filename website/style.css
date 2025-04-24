@@ -53,5 +53,12 @@ body {
   .topic-block a {
     color: #0070f3;
   }
+  .topic-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
   
   
