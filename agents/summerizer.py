@@ -1,4 +1,3 @@
-<<<<<<< HEAD:agents/summerizer.py
 import os
 import google.generativeai as genai
 from dotenv import load_dotenv
@@ -30,5 +29,22 @@ Summary:"""
         return response.text.strip()
     except Exception as e:
         return f"[Summary error: {e}]"
-=======
->>>>>>> parent of 3d829b9 (added the code):agents/summarizer.py
+    
+def summarize_topic(topic, articles, style="brief"):
+    combined = ""
+    for article in articles:
+        combined += f"Title: {article['title']}\n"
+        combined += f"Description: {article['description']}\n\n"
+
+    prompt = f"""You are an expert newsletter writer.
+Summarize the following {len(articles)} articles about "{topic}" in a {style} style.
+Use only relevant details. Return 2-3 clean sentences.
+
+{combined}
+"""
+
+    try:
+        response = model.generate_content(prompt)
+        return response.text.strip()
+    except Exception as e:
+        return f"[Summary error: {e}]"
