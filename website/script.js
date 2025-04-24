@@ -1,5 +1,3 @@
-const container = document.getElementById("days-list");
-
 fetch('./data/index.json')
   .then(res => res.json())
   .then(days => {
@@ -8,23 +6,24 @@ fetch('./data/index.json')
         .then(res => res.json())
         .then(data => {
           const div = document.createElement("div");
-          div.className = "day-summary";
 
-          const firstSummary = data.topics?.[0]?.summary || "No summary available";
+          const topicList = data.topics || [];
+          const summary = topicList[0]?.summary || "No summary available";
 
           div.innerHTML = `
             <a href="day.html?id=${date}">
-              <strong>${date}</strong> [ ${firstSummary.slice(0, 70)}... ]
+              <strong>${date}</strong> [ ${summary.slice(0, 70)}... ]
             </a>
             <hr />
           `;
 
-          container.appendChild(div);
+          document.getElementById("days-list").appendChild(div);
         })
-        .catch(err => console.warn(`Failed to load ${date}`, err));
+        .catch(err => {
+          console.warn(`❌ Could not load ${date}.json:`, err);
+        });
     });
   })
-  .catch(err => console.error("Couldn't load index.json", err));
-
-
-  
+  .catch(err => {
+    console.error("❌ Failed to load index.json:", err);
+  });
