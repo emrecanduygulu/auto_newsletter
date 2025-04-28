@@ -1,0 +1,38 @@
+{
+  "date": "2025-04-28",
+  "topics": [
+    {
+      "name": "NBA",
+      "summary": "Here's a brief summary of the NBA articles:\n\nLuka Don\u010di\u0107 was traded by the Mavericks to the Lakers for Anthony Davis, Max Christie, and a first-round pick, a shocking move. The Houston Rockets and Golden State Warriors are competing in a playoff series, with Jalen Green scoring and Draymond Green making a defensive play. One article focuses on the Miami Heat's playoff situation, highlighting the matchup of Tyler Herro and the schemes of the Cleveland Cavaliers.",
+      "resources": [
+        "https://www.mundodeportivo.com/baloncesto/20250427/1002453341/momento-hizo-llorar-luka-doncic.html",
+        "http://wwd.com/eye/parties/tiffany-blue-book-gala-2025-sea-of-wonder-met-museum-1237105090/",
+        "https://www.sun-sentinel.com/2025/04/27/ira-winderman-heat-cavs-distilled-to-tyler-herro-vs-schemes-on-steroids/",
+        "https://www.ansa.it/sito/photogallery/sport/2025/04/27/nba-sfida-sotto-canestro-tra-golden-state-e-houston_7858bc16-b8db-4a54-afb6-de96a72a7733.html",
+        "https://www.ansa.it/sito/photogallery/sport/2025/04/27/nba-disperato-salvataggio-di-green-dei-warriors_d3ae1a7b-88ec-453c-aef2-41801f39a6a9.html"
+      ]
+    },
+    {
+      "name": "AI",
+      "summary": "Here's a brief summary of the articles:\n\n*   **Meta's AI chatbots:** Meta is facing internal concerns about its AI digital companions, which allow users to engage in explicit role-playing scenarios, including with minors. The company is expanding its AI chatbots, which offers a wide range of social interactions.\n\n*   **Samsung Update Battery Drain:** Samsung users are experiencing significantly reduced battery life on their devices following a recent update, despite the introduction of new features.",
+      "resources": [
+        "https://www.ansa.it/sito/notizie/sport/altrisport/2025/04/27/rugby-6-nazioni-donne-italia-galles-44-12_fa33131b-9fa2-4825-add0-ecd1c92c8e37.html",
+        "https://www.chip.de/nachrichten/software,42323/lade-zwei-bis-dreimal-samsung-nutzer-klagen-ueber-akku-aerger-nach-update_ff9d7a29-d6fb-41a9-81e9-86a3e8488d77.html",
+        "https://www.ansa.it/lombardia/notizie/2025/04/27/abusi-in-oratorio-prete-condannato-in-processo-canonico_7589bd1e-b854-4740-9bf0-e91222f13563.html",
+        "https://finance.yahoo.com/news/41-ownership-eqv-ventures-acquisition-143546795.html",
+        "https://www.cnbeta.com.tw/articles/tech/1495776.htm"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "summary": "Here's a summary of the gaming articles:\n\n*   **Devil May Cry:** Writer Shakira Pressley, experienced in anime, fantasy, and video games, discusses connecting with both existing fans and newcomers to the franchise.\n*   **UK Controller Ban:** The UK government has banned game controller exports to Russia, hoping to limit their use in military applications like drone piloting.\n*   **Cyberpunk 2077 Secret:** Cyberpunk 2077 features a hidden button that encourages players to ignore a warning, hinting at a secret within the game.\n*   **GAMEMAX Blade Concept:** GAMEMAX has released a limited-production open-air gaming case, which may be difficult to purchase.\n*   **MSI B650M Gaming Motherboard:** The MSI B650M GAMING WIFI is a budget-friendly AM5 motherboard well-suited for Ryzen 7 and lower processors but may overheat with R9 under heavy loads.",
+      "resources": [
+        "https://bleedingcool.com/tv/devil-may-cry-writer-on-winning-over-video-game-fans-new-viewers/",
+        "https://www.tomshardware.com/peripherals/controllers-gamepads/game-controller-exports-to-russia-banned-by-uk-gov-hopes-to-reduce-options-for-enemy-drone-pilots",
+        "https://vandal.elespanol.com/noticia/1350780093/en-cyberpunk-2077-hay-un-boton-que-te-pide-que-no-lo-pulses-y-claro-que-lo-vas-a-pulsar/",
+        "https://www.hdblog.it/hardware/articoli/n616463/gamemax-blade-concept-case-design-stile/",
+        "https://www.ozbargain.com.au/node/903458"
+      ]
+    }
+  ]
+}
