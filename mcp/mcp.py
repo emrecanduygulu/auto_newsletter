@@ -43,3 +43,15 @@ class MCP:
 
     def get_summarizer_model(self):
         return self.context.get("summarizer", "gemini_flash_lite")
+    
+    def reddit_enabled(self):
+        return self.context.get("reddit", {}).get("enabled", False)
+
+    def get_subreddits(self):
+        return self.context.get("reddit", {}).get("subreddits", [])
+
+    def get_reddit_post_limit(self):
+        return self.context.get("reddit", {}).get("posts_per_subreddit", 10)
+
+    def get_reddit_only_topics(self):
+        return self.context.get("reddit", {}).get("only_topics", [])

@@ -1,7 +1,13 @@
 {
-    "topics": ["NBA", "AI", "Gaming"],
+    "topics": ["NBA", "AI", "Gaming", "News"],
     "max_articles_per_topic": 5,
     "summary_style": "brief",
-    "summarizer": "gemini_2.0_flash_lite"
+    "summarizer": "gemini_2.0_flash_lite",
+    "reddit": { 
+      "enabled": true,
+      "subreddits": ["nba", "artificialinteligence", "gaming", "news"],
+      "posts_per_subreddit": 5,
+      "only_topics": ["News"]
+    }
   }
   

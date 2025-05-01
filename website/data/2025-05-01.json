@@ -1,0 +1,64 @@
+{
+  "date": "2025-05-01",
+  "topics": [
+    {
+      "name": "NBA",
+      "summary": "Here's a brief newsletter-style summary of the NBA articles:\n\nThe Minnesota Timberwolves eliminated the Los Angeles Lakers in the first round of the playoffs, with Rudy Gobert leading the Timberwolves.  The Lakers' LeBron James and Bam Adebayo had cryptic comments about team changes.  Additionally, Steph Castle received his ROY award, and Gucci Mane met an NBA ref who resembles him.",
+      "resources": [
+        "https://www.forbes.com/sites/tylersmall/2025/04/30/which-new-team-would-be-the-best-fit-for-giannis-antetokounmpo/",
+        "https://www.cheatsheet.com/news/tobias-harris-fiancee-jasmine-winton.html/",
+        "https://www.sbnation.com/nba/2025/4/30/24420925/tyrese-haliburton-dad-embarrassed-giannis-antetokounmpo-nba-playoffs-bucks-pacers",
+        "https://uproxx.com/music/gucci-mane-lookalike-nba-ref/",
+        "https://www.adweek.com/tvnewser/week-of-april-21-2025-cable-news-ratings/",
+        "https://www.reddit.com/r/nba/comments/1kc0odj/the_los_angeles_lakers_have_been_eliminated_from/",
+        "https://streamable.com/0o8vpo",
+        "https://streamable.com/rhg6ip",
+        "https://streamable.com/ivsqsz",
+        "https://www.reddit.com/r/nba/comments/1kc0o2u/post_game_thread_the_minnesota_timberwolves/"
+      ]
+    },
+    {
+      "name": "AI",
+      "summary": "Here's a summary of the AI-related articles:\n\nCheck Point Research released an AI Security Report highlighting the rise of AI-powered cybercrime and defenses. There's discussion around the limitations of the common phrase \"AI won't take your job, but someone using AI will.\"  Additionally, OpenAI rolled back a ChatGPT update that made the bot excessively flattering.",
+      "resources": [
+        "https://finance.yahoo.com/news/jim-cramer-agnico-eagle-aem-144416595.html",
+        "https://finance.yahoo.com/news/jim-cramer-ulta-beauty-ulta-144401236.html",
+        "https://vmblog.com:443/archive/2025/04/30/check-point-research-launches-ai-security-report-exposing-the-rise-of-ai-powered-cybercrime-and-defenses.aspx",
+        "https://www.internazionale.it/ultime-notizie/2025/04/30/usa-contrazione-pil-primo-trimestre-2025",
+        "https://finance.yahoo.com/news/jim-cramer-microstrategy-mstr-buy-144339681.html",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kbmpv3/claude_from_anthropic_is_diging_its_grave/",
+        "https://substack.com/home/post/p-160917692",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kbvo71/experiment_what_does_a_60kword_ai_novel_generated/",
+        "https://youtu.be/JATDrQMYQVo",
+        "https://www.nbcnews.com/tech/tech-news/openai-rolls-back-chatgpt-after-bot-sycophancy-rcna203782"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "summary": "Here's a summary of the articles:\n\nSeveral articles discuss gaming-related deals and product announcements, including discounts on gaming laptops and a value-for-money tablet. There are also announcements regarding the upcoming opportunity to try the Gothic Remake and the removal of \"Evil Dead: The Game\" from sale. Additionally, it was reported that Apex Legends writer was laid off after the character she wrote was revealed, and Microsoft increased the price of all Xbox Series Consoles and confirmed that games will cost $80 this holiday.",
+      "resources": [
+        "https://www.javacodegeeks.com/2025/04/micronaut-serde-beyond-jackson-protobuf-avro-binary-performance.html",
+        "https://www.generation-nt.com/actualites/pc-msi-thin-macbook-air-m4-barre-son-bose-casque-tv-oled-samsung-qled-apple-watch-ultra-2-fnac-darty-french-days-promos-pas-cher-2057605",
+        "https://www.windowscentral.com/hardware/laptops/gaming-week-msi-thin-15-deal",
+        "https://www.gizchina.gr/2025/04/30/teclast-t50-plus-soyper-timi-exairetiko-value-for-money-kai-pliri-specs-me-125e/",
+        "https://www.gameswelt.de/gothic-remake/news/wo-ihr-es-im-mai-schon-selbst-anspielen-koennt-330421",
+        "https://www.pcgamer.com/gaming-industry/game-development/apex-legends-writer-gets-laid-off-24-hours-after-the-character-she-wrote-is-revealed-because-thats-what-the-games-industry-in-2025-looks-like/",
+        "https://i.redd.it/v36g2vzfg0ye1.jpeg",
+        "https://i.redd.it/sjojxbn3a0ye1.jpeg",
+        "https://www.pcgamer.com/games/horror/evil-dead-the-game-is-being-removed-from-sale-just-three-years-after-it-launched/",
+        "https://www.ign.com/articles/microsoft-raises-the-price-of-all-xbox-series-consoles-xbox-games-confirmed-to-hit-80-this-holiday"
+      ]
+    },
+    {
+      "name": "News",
+      "summary": "Here's a brief summary of the news articles:\n\nAn Oklahoma family, all U.S. citizens, experienced trauma after an ICE raid on their home that was intended for someone else.  A Vermont federal judge ordered the release of Columbia student Mohsen Mahdawi.  Additionally, the Supreme Court heard arguments regarding a publicly funded Catholic charter school in Oklahoma, and a middle school student recorded himself using ethnic slurs against a five-year-old.",
+      "resources": [
+        "https://www.nbcnews.com/news/latino/us-citizen-family-traumatized-ice-raid-rcna203700",
+        "https://www.nbcwashington.com/news/local/northern-virginia/middle-schooler-records-himself-harassing-5-year-old-with-ethnic-slurs/3899952/",
+        "https://apnews.com/article/supreme-court-religious-catholic-charter-school-oklahoma-983ed57aabeae53e4b58367c5021f5e1",
+        "https://www.theguardian.com/us-news/2025/apr/30/mohsen-mahdawi-released-immigration-detention",
+        "https://www.fox4news.com/news/truckload-dimes-spills-onto-wise-county-highway"
+      ]
+    }
+  ]
+}

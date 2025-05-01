@@ -1,0 +1,38 @@
+{
+  "date": "2025-04-30",
+  "topics": [
+    {
+      "name": "NBA",
+      "summary": "Here's a brief NBA news summary:\n\nThe Detroit Pistons will be without a key player for their Game 5 against the Knicks. The Milwaukee Bucks were eliminated by the Indiana Pacers, and Giannis Antetokounmpo was involved in heated incidents with Pacers players and Tyrese Haliburton's father after the game. Tuesday night features crucial playoff games, including Bucks-Pacers, Pistons-Knicks, Magic-Celtics, and Clippers-Nuggets.",
+      "resources": [
+        "https://www.newsweek.com/sports/nba/pistons-without-one-player-game-5-2065895",
+        "https://www.nbcsports.com/mens-college-basketball/news/usc-basketball-recruit-alijah-arenas-has-no-major-injuries-after-vehicle-crash-in-los-angeles",
+        "https://www.fark.com/comments/13651684/Three-series-could-end-Tuesday-Night-One-is-tied-at-2-apiece-Bucks-Pacers-start-things-off-at-600-PM-ET-on-NBA-TV-Pistons-Knicks-at-730-PM-on-TNT-Magic-Celtics-at-830-PM-on-NBA-TV-Clippers-Nuggets-at-1000-PM-on-TNT-Here-we-go",
+        "https://tw.sports.yahoo.com/news/nba%E5%AD%A3%E5%BE%8C%E8%B3%BD-%E5%85%AC%E9%B9%BF%E6%BA%9C%E9%A6%AC%E8%B3%BD%E5%BE%8C%E9%9A%AA%E7%88%86%E5%A4%A7%E4%BA%82%E9%AC%A5-%E6%A7%93%E4%B8%8A%E5%93%88%E5%88%A9%E6%9F%8F%E9%A0%93%E7%88%B9-%E5%AD%97%E6%AF%8D%E5%93%A5%E8%BD%9F%E4%B8%8D%E5%B0%8A%E9%87%8D-052400874.html",
+        "https://www.nbcsportsbayarea.com/nba/giannis-incident-tyrese-haliburton-dad-bucks-pacers/1846729/"
+      ]
+    },
+    {
+      "name": "AI",
+      "summary": "Here's a brief summary of the articles:\n\nMicrosoft is testing the integration of its AI assistant, Copilot, into the \"Edge\" browser's new tab page, allowing for AI-powered searches and chats. Researchers used AI bots to infiltrate a popular Reddit forum, sparking controversy with their attempts to sway human opinion. The \"Take It Down Act\" has been passed, which will impose stricter penalties on the distribution of non-consensual intimate images.",
+      "resources": [
+        "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2010158.html",
+        "https://www.forbes.com/sites/chuckbrooks/2025/04/29/sboms-as-well-as-hboms-and-cboms-as-cybersecurity-facilitators/",
+        "https://www.nbcnews.com/tech/tech-news/reddiit-researchers-ai-bots-rcna203597",
+        "https://japantoday.com/category/world/take-it-down-act-addressing-nonconsensual-deepfakes-and-%27revenge-porn-%27-passes.-what-is-it",
+        "https://tech.everyeye.it/notizie/ali-rosa-shocking-superpoteri-nascosti-enigma-gufi-comuni-794816.html"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "summary": "*   **Gaming News Roundup**\n    *   TikTok has surpassed Twitch, becoming the second most-watched streaming platform, with creators earning an estimated $10 million daily. \n    *   A woman's \"no-touching date\" experience went viral, sparking mixed reactions on social media.\n    *   A 43-inch Hisense Smart TV is considered a great value, currently priced under \u20ac250 on Amazon.",
+      "resources": [
+        "https://www.dailydot.com/culture/no-touching-date-scabies/",
+        "https://www.cinemablend.com/movies/quotes-from-all-three-godfather-movies-that-make-the-series-legendary",
+        "https://www.masslive.com/westernmass/2025/04/workers-complain-that-mgm-is-refusing-to-negotiate-with-union-springfield-city-council-might-add-voice-to-outcry.html",
+        "https://andro4all.com/ofertas/esta-es-una-de-las-mejores-smart-tv-por-menos-de-250-euros-sin-discusion",
+        "https://www.tubefilter.com/2025/04/29/twitch-tiktok-streaming-hours-data-streams-charts/"
+      ]
+    }
+  ]
+}
