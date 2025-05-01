@@ -39,7 +39,8 @@ def fetch_news(topic, max_articles):
             results.append({
                 "title": title,
                 "description": description,
-                "url": url
+                "url": url,
+                "source": "NewsAPI"
             })
 
     return results

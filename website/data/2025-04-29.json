@@ -1,0 +1,37 @@
+{
+  "date": "2025-04-29",
+  "topics": [
+    {
+      "name": "NBA",
+      "summary": "The WNBA has not received any expansion bids from Boston, but will feature a new broadcasting first this season. In the NBA, Milwaukee Bucks guard Damian Lillard tore his Achilles tendon during Sunday's playoff game and will miss the rest of the season. Additionally, Kyrie Irving's shoe company, Anta Sports, revealed a new colorway of his ANTA KAI 2 to honor his mother.",
+      "resources": [
+        "https://www.bostonherald.com/2025/04/28/wnba-chief-says-no-bid-from-boston-re-expansion/",
+        "https://www.sbnation.com/wnba/2025/4/28/24419679/wnba-preseason-games-clark-bueckers-fever-wings-aces-sky-reese",
+        "https://www.forbes.com/sites/brucelee/2025/04/28/bucks-damian-lillard-tears-achilles-tendon-will-miss-rest-of-playoffs/",
+        "https://www.tmz.com/2025/04/28/damian-lillard-torn-achilles-nba-playoffs/",
+        "https://athlonsports.com/nba/dallas-mavericks/big-kyrie-irving-announcement-made-after-mavericks-disastrous-season-ends"
+      ]
+    },
+    {
+      "name": "AI",
+      "summary": "Here's a brief summary of the articles:\n\n*   **Google Ironwood TPU:** Google launched the Ironwood TPU, its most powerful AI accelerator, significantly improving AI inference performance and efficiency.\n*   **EcoFlow Home Battery:** EcoFlow introduced new plug-in home batteries, utilizing AI to help reduce energy costs when paired with solar panels.",
+      "resources": [
+        "https://www.mediafax.ro/politic/nicusor-dan-afirma-ca-lasconi-a-intrat-in-turul-2-pentru-ca-orban-s-a-retras-si-ciolacu-ar-fi-dat-voturi-catre-simion-23544940",
+        "https://www.ansa.it/sito/videogallery/mondo/2025/04/28/gaza-city-ressa-per-un-pasto-presso-una-cucina-comunitaria_df6517f0-60c8-45b2-a8fe-5e6cf90940e0.html",
+        "https://www.ansa.it/sito/notizie/cronaca/2025/04/28/reina-guarda-al-conclave-non-e-tempo-di-rivalse_a3477508-62b5-4741-8215-7c0efe501739.html",
+        "https://www.storagereview.com/news/google-ironwood-tpu-a-massive-leap-in-ai-inference-performance",
+        "https://www.bright.nl/nieuws/1295400/deze-nieuwe-thuisbatterij-is-ook-geschikt-voor-op-het-balkon.html"
+      ]
+    }, 
+    {
+      "name": "Gaming",
+      "summary": "Here's a summary of the gaming-related articles:\n\n*   **Mycopunk** is an upcoming stylish, four-player extraction shooter from Pigeons at Play and Devolver Digital, slated for an early access release on Steam.\n*   Filmmaker Harmony Korine's EDGLRD is collaborating with Higround to release a limited-edition keyboard, tapping into the premium gaming accessory market.\n*   Google is restructuring Android's development, planning two SDK releases in 2025, a significant shift in their release strategy.",
+      "resources": [
+        "https://slashdot.org/firehose.pl?op=view&amp;id=177197867",
+        "https://variety.com/2025/digital/news/harmony-korine-edglrd-gaming-keyboard-higround-1236380406/",
+        "https://www.phonearena.com/news/another-google-app-could-be-joining-the-graveyard-soon-but-this-one-actually-makes-sense_id169894",
+        "https://stadt-bremerhaven.de/android-sdk-google-plant-zwei-releases-fuer-2025/"
+      ]
+    }
+  ]
+}
