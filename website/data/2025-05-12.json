@@ -1,0 +1,64 @@
+{
+  "date": "2025-05-12",
+  "topics": [
+    {
+      "name": "NBA",
+      "summary": "Here's a summary of the NBA articles:\n\nThe Minnesota Timberwolves took a 2-1 series lead against the Warriors. The Indiana Pacers dominated the Cleveland Cavaliers with a halftime lead that tied an NBA playoff record. The Oklahoma City Thunder tied their series with the Denver Nuggets, with Shai Gilgeous-Alexander scoring 25 points.",
+      "resources": [
+        "https://www.montevideo.com.uy/Deportes/NBA-Warriors-perdieron-de-locales-con-los-Timberwolves-que-estan-2-1-arriba-Gano-Boston-uc923398",
+        "https://slashdot.org/firehose.pl?op=view&amp;id=177444237",
+        "http://bossip.com/2937489/aap-rocky-james-bond-variety/",
+        "https://www.newsit.gr/athlitika/osman-gia-to-synthima-sta-ellinika-akoma-kai-tora-anatrixiazo-itan-kati-pou-douleya-kairo/4378777/",
+        "https://www.denverpost.com/2025/05/11/dick-monfort-rockies-questions/",
+        "https://bsky.app/profile/flybyknite.bsky.social/post/3lowsj432bc2n",
+        "https://www.reddit.com/r/nba/comments/1kkd3e3/post_game_thread_the_oklahoma_city_thunder_tie/",
+        "https://www.reddit.com/r/nba/comments/1kki0n0/post_game_thread_the_indiana_pacers_dominate_and/",
+        "https://streamable.com/owfnj2",
+        "https://streamable.com/pvqlcr"
+      ]
+    },
+    {
+      "name": "AI",
+      "summary": "Here's a summary of the AI-related articles:\n\nAI is causing ethical and practical concerns. One article discusses who is accountable when an AI misdiagnoses a patient and causes harm, while others ponder AI's impact on job security and the potential for a world where money is rendered meaningless. Additionally, news reports that SoundCloud is allowing AI training on user content, OpenAI is acquiring Windsurf, Amazon is creating new human jobs in an AI-driven world, and Visual Studio Code has beefed up its AI coding features.",
+      "resources": [
+        "https://www.telerama.fr/enfants/de-john-coltrane-a-big-audio-dynamite-la-playlist-d-enfance-de-lionel-de-the-liminanas-7025578.php",
+        "https://www.ansa.it/sito/notizie/cronaca/2025/05/11/madre-di-5-figli-trovata-carbonizzata-in-distributore-benzina_b68a6723-2832-412f-ba57-516e72786abd.html",
+        "https://www.kitploit.com/2025/05/shodan-dorks-dorks-for-shodan-powerful.html",
+        "https://www.elliott.org/on-travel/airlines-are-getting-stricter-about-carry-on-luggage-heres-what-to-do-about-it/",
+        "https://www.hdmotori.it/cupra/recensioni/n612208/cupra-tavascan-formula-e-viaggio/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kk9cbh/pope_leo_references_ai_in_his_explanation_of_why/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kjzn4k/what_tech_jobs_will_be_safe_from_ai_at_least_for/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kko4v5/who_should_be_held_accountable_when_an_ai_makes_a/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kkmlj7/do_you_think_agi_will_make_money_meaningless_in/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kkk631/oneminute_daily_ai_news_5112025/"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "summary": "Here's a summary of the articles:\n\nToday's deals include a 40000mAh power bank, magnetic cable clips, and Denon premium wireless headphones. Agent 47 from the Hitman series is featured in the zombie survival game State of Survival.  A German-made Soulslike adventure game is currently available at a discounted price.",
+      "resources": [
+        "https://www.geeksaresexy.net/2025/05/11/todays-hot-deals-40000mah-power-bank-magnetic-cable-clips-denon-premium-wireless-headphones-and-more/",
+        "https://www.pockettactics.com/state-of-survival/hitman",
+        "https://cryptoslate.com/conviction-over-doubt-yat-siu-on-building-web3s-most-influential-unicorn/",
+        "https://www.pcgames.de/GOGcom-Firma-256620/News/Dark-Souls-Deutschland-SciFi-Angebot-1472432/",
+        "https://gizmodo.com/this-40-inch-1080p-smart-tv-is-priced-under-150-amazon-makes-black-friday-prices-look-ridiculous-2000600733",
+        "https://i.redd.it/8waggrpaa60f1.jpeg",
+        "https://i.redd.it/26vqsar0ja0f1.jpeg",
+        "https://youtu.be/mLyOj_QD4a4?si=wXDh0K-k78YjpxLK",
+        "https://i.redd.it/lksscd39w60f1.jpeg",
+        "https://i.redd.it/3j7rz4tvh60f1.jpeg"
+      ]
+    },
+    {
+      "name": "News",
+      "summary": "Here's a brief summary of the news articles:\n\nFormer President Trump plans to use a luxury jet from Qatar as a replacement for Air Force One. Also, he dismissed the director of the U.S. Copyright Office. In other news, the FDA approved the first at-home Pap smear alternative, a Turkish student was released from a Louisiana detention center and is now back in Boston, and Hamas officials are holding direct talks with the US in Qatar.",
+      "resources": [
+        "https://edition.cnn.com/2025/05/11/politics/trump-luxury-jet-qatar-air-force-one",
+        "https://www.cbsnews.com/news/trump-fires-director-of-u-s-copyright-office-shira-perlmutter-sources/",
+        "https://www.npr.org/2025/05/10/nx-s1-5394446/fda-cervical-cancer-screening-at-home-tool-pap-smear",
+        "https://apnews.com/article/ozturk-tufts-mahdawi-columbia-student-detained-0067c5c43e9480fa0c3f5cbf779a0d97",
+        "https://www.bbc.com/news/articles/cx2q7749dxlo"
+      ]
+    }
+  ]
+}

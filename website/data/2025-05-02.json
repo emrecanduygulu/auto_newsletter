@@ -1,0 +1,63 @@
+{
+  "date": "2025-05-02",
+  "topics": [
+    {
+      "name": "NBA",
+      "summary": "In NBA news, Gregg Popovich is transitioning from Head Coach of the San Antonio Spurs to Team President, and Tyrese Haliburton's father will not be attending Pacers games indefinitely. Additionally, the Detroit Pistons have been eliminated from the 2025 NBA playoffs, and the Warriors are striving to close out the Rockets in a bruising playoff series.",
+      "resources": [
+        "https://www.foxsports.com/stories/nba/haliburtons-father-suspended-from-pacers-games-indefinitely-after-run-in-giannis",
+        "https://hollywoodlife.com/feature/met-gala-2025-5415268/",
+        "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_fb6cd3a0-3c23-4f8a-a36e-79b66461ed66",
+        "https://tw.sports.yahoo.com/news/%E3%80%90nba%E5%B0%88%E6%AC%84%EF%BC%8F%E6%9D%8E%E4%BA%A6%E4%BC%B8%E3%80%91%E7%9C%8B%E7%9C%8B%E6%B4%BB%E5%A1%9E%E9%AD%94%E8%A1%93%EF%BC%8C%E5%AD%A3%E5%BE%8C%E8%B3%BD%E6%B9%96%E4%BA%BA%E9%82%84%E7%9C%9F%E4%B8%8D%E6%98%AF%E6%99%AE%E9%80%9A%E7%88%9B-042858273.html",
+        "https://www.reddit.com/r/nba/comments/1kd4a65/charania_breaking_gregg_popovich_will_no_longer/",
+        "https://streamable.com/xaeuh1",
+        "https://www.reddit.com/r/nba/comments/1kcidq3/charania_after_conversations_with_tyrese/",
+        "https://www.reddit.com/r/nba/comments/1kcqbta/the_detroit_pistons_have_been_eliminated_from_the/",
+        "https://www.reddit.com/r/nba/comments/1kd29if/the_athletic_league_sources_close_to_lebron_james/"
+      ]
+    },
+    {
+      "name": "AI",
+      "summary": "Here's a summary of the AI-related articles:\n\nAI is increasingly integrated into various applications, with IBM being the first cloud service provider to deploy Intel Gaudi 3 AI accelerators to enhance accessibility. However, ethical concerns persist, as studies indicate that AI systems can inherit and amplify human biases, regardless of safeguards. Moreover, new AI features, such as WhatsApp's message reply suggestions, are being developed with privacy in mind, utilizing on-device inference to avoid cloud-based prompt sharing.",
+      "resources": [
+        "http://hotnews.ro/israelul-ameninta-regimul-islamist-al-siriei-cu-o-forta-semnificativa-1961604",
+        "https://uk.pcmag.com/security/157831/rsac-2025-how-to-spot-and-stop-scammers-like-a-security-expert",
+        "https://me.pcmag.com/en/security/29631/rsac-2025-how-to-spot-and-stop-scammers-like-a-security-expert",
+        "https://tw.stock.yahoo.com/news/%E5%BE%9E%E6%96%B0%E5%8D%97%E5%90%91%E5%88%B0%E6%96%B0%E6%9D%B1%E5%90%91-%E6%9E%97%E4%BD%B3%E9%BE%8D%E6%8E%A8%E5%85%AC%E7%A7%81%E5%8D%94%E5%8A%9B%E6%89%93%E9%80%A0-%E5%8F%B0%E7%BE%8E%E8%81%AF%E5%90%88%E8%89%A6%E9%9A%8A-045514067.html",
+        "https://www.techpowerup.com/336224/ibm-cloud-is-first-service-provider-to-deploy-intel-gaudi-3",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kd70xo/most_ai_startups_will_crash_and_their_execs_know/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kczxl5/is_ethical_ai_a_myth_new_study_suggests_human/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kcmjgh/android_police_gemini_will_soon_tap_into_your/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kd434e/whatsapps_new_ai_feature_runs_entirely_ondevice/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kd5q2o/we_are_extremely_far_away_from_a_self_conscious/"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "summary": "Here's a brief summary of the gaming articles:\n\n*   Amazon is offering the Batman Beyond Blu-ray box set for $25.\n*   A new horror game, Code Violet, is in development by TeamKill Media for PS5, set to release this year.\n*   Mattel is launching Hot Wheels-themed building sets under the new \"Brick Shop\" brand, similar to Lego and Mega Bloks.",
+      "resources": [
+        "https://www.gamespot.com/articles/batman-beyond-complete-series-blu-ray-amazon-deal/1100-6529223/",
+        "https://www.gamevicio.com/noticias/2025/05/code-violet-revela-gameplay/",
+        "https://biztoc.com/x/3764c51c41004255",
+        "https://www.gamespot.com/articles/mattel-brick-shop-hot-wheels-building-sets-lego-preorder/1100-6531238/",
+        "https://www.gamespot.com/articles/mattel-is-launching-new-brick-model-kits-based-on-iconic-hot-wheels-cars/1100-6531238/",
+        "https://www.rockstargames.com/mx/newswire/article/258aa538o412ok/grand-theft-auto-vi-is-now-coming-may-26-2026",
+        "https://wccftech.com/half-life-3-playtested-summer-reveal/",
+        "https://www.reddit.com/r/gaming/comments/1kcqudu/gamers_30_whats_something_from_back_in_your_day/",
+        "https://www.ign.com/articles/clair-obscur-expedition-33-publisher-says-the-elder-scrolls-iv-oblivion-remastered-shadow-drop-actually-benefitted-the-game-by-drawing-attention-to-quality-rpgs-that-week?link_source=ta_first_comment&taid=6814a971a16917000121f7c3&fbclid=IwZXh0bgNhZW0CMTEAAR7_HWYyzrLZXZ7oHCpqmJpEHjYM-k-ZvYPVhl6S7tiI3p-tyj_v4975-4UnGA_aem_vJhqPfYGFNCygXt4miyQNQ",
+        "https://www.gamesradar.com/games/jrpg/clair-obscur-expedition-33-lead-writer-says-chances-are-good-that-the-jrpg-banger-gets-dlc-at-some-point/"
+      ]
+    },
+    {
+      "name": "News",
+      "summary": "Here's a brief summary of the news articles:\n\nFormer President Trump signed an executive order directing potential federal funding cuts to PBS and NPR. In other news, a U.S. Marine in Okinawa was indicted on charges of rape and injury. A man was sentenced to 53 years in prison for the hate crime murder of a Palestinian-American boy.",
+      "resources": [
+        "https://apnews.com/article/trump-npr-pbs-republicans-public-broadcasting-f0e3e1acb96986732a0211833165bf84",
+        "https://english.kyodonews.net/news/2025/04/5413b1fdde94-us-marine-in-okinawa-indicted-over-rape-injury.html",
+        "https://www.bbc.co.uk/news/articles/crkx3egk3ygo?fbclid=PAQ0xDSwKBlMBleHRuA2FlbQIxMQABpxz-vcbOrpXyUIHbPkD3JoXLspK0TLUXLuOcteBADjQhncwVIbIUdrNn0JIM_aem_7pfTbvCYLxHUeeNvWyACMQ",
+        "https://www.cnn.com/2025/05/01/politics/army-plans-military-parade-trump-birthday",
+        "https://abcnews.go.com/US/man-sentenced-53-years-prison-hate-crime-murder/story?id=121400634"
+      ]
+    }
+  ]
+}
