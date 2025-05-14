@@ -1,0 +1,64 @@
+{
+  "date": "2025-05-14",
+  "topics": [
+    {
+      "name": "NBA",
+      "summary": "Here's a summary of the NBA articles:\n\nThe Dallas Mavericks won the 2025 NBA draft lottery, securing the No. 1 pick, which has sparked conspiracy theories despite safeguards against rigging.  Jayson Tatum of the Boston Celtics underwent season-ending surgery.  Other news includes the elimination of the Cleveland Cavaliers and a highlight of Nikola Jokic's clutch shot.",
+      "resources": [
+        "https://basketball.realgm.com/wiretap/280386/Flagg-Harper-Bailey-Edgecombe-Fears-Go-1-5-In-ESPNs-First-Post-Lottery-Mock-Draft",
+        "https://www.forbes.com/sites/matissa/2025/05/13/why-the-nba-lottery-is-definitely-not-rigged/",
+        "https://mgoblog.com/content/unverified-voracity-defends-halves",
+        "https://www.marca.com/en/basketball/nba/dallas-mavericks/2025/05/13/682397aaca4741bd7f8b457f.html",
+        "https://brobible.com/gear/article/im-sad-about-oswaldo-cabrera-getting-hurt-so-im-treating-myself-to-yankees-slides-from-nike/",
+        "https://www.reddit.com/r/nba/comments/1klwwe5/charania_breaking_boston_celtics_allnba_star/",
+        "https://www.reddit.com/r/nba/comments/1km3his/the_cleveland_cavaliers_have_been_eliminated_from/",
+        "https://streamable.com/jo26bc",
+        "https://youtube.com/clip/Ugkxqj9BVl0yR7CyVXl-3yhgYq3AiQQ2PXkR",
+        "https://streamable.com/m2nh3e"
+      ]
+    },
+    {
+      "name": "AI",
+      "summary": "Here's a summary of the AI-related articles:\n\n*   **Policy & Business:** Donald Trump's administration plans to relax AI chip export regulations, while Mark Zuckerberg's vision for Meta AI focuses on hyper-personalization and data collection for advertising, potentially raising privacy concerns. Google is also enhancing Android to detect potential scams during phone calls.\n*   **Development & Usage:** AI is rapidly changing how people approach coding, allowing faster idea-to-reality timelines. A Google AI called AlphaEvolve is writing its own code, significantly reducing computing costs.\n*   **Perception & Concerns:** Some users feel current AI is disconnected from everyday life, requiring constant user input and not proactively anticipating needs. There's also debate around the ownership of AI-generated content, with some advocating for a Creative Commons approach for AI art.",
+      "resources": [
+        "https://www.portfolio.hu/uzlet/20250513/vege-a-globalis-blokadnak-trump-uj-korszakot-hirdet-az-ai-piacon-is-760935",
+        "https://www.smartworld.it/news/novita-sicurezza-android-16.html",
+        "https://typeforyou.org/machine-learning-consultation/",
+        "https://knowyourmeme.com/memes/rubi-rose-bending-over-with-cybertruck-photoshops",
+        "https://www.tuttomercatoweb.com/serie-a/questa-volta-non-posso-andare-dove-va-antonio-ma-oriali-smentisce-tutto-a-i-la-verita-i-2102471",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1klxfpx/mark_zuckerbergs_ai_vision_for_meta_looks_scary/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1klvofp/al_coding_is_lowkey_changing_how_i_think/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kmc2r4/anyone_else_feel_like_ai_for_all_its_smarts_is/",
+        "http://venturebeat.com/ai/meet-alphaevolve-the-google-ai-that-writes-its-own-code-and-just-saved-millions-in-computing-costs/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1km0np0/hot_take_ai_art_should_be_creative_commons/"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "summary": "Here's a summary of the gaming articles:\n\nGamers can grab a bundle of racing games for $4 each through Fanatical's \"Pedal to the Metal Bundle\". Samsung is releasing the Odyssey G6 OLED monitor with a record-breaking 500Hz refresh rate. Other deals include a curved gaming monitor bundle from Samsung for EDU/EPP members.",
+      "resources": [
+        "http://comicbook.com/gaming/news/get-a-ton-of-racing-games-for-4-each-with-this-bundle-deal/",
+        "https://www.gamestar.de/artikel/samsung-odyssey-g6-oled-release-preis-specs,3432882.html",
+        "https://slickdeals.net/f/18312934-samsung-edu-epp-49-odyssey-qd-oled-g9-dual-qhd-240hz-curved-gaming-monitor-27-odyssey-g55c-qhd-165hz-monitor-1170-free-shipping?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+        "https://www.gamestar.de/artikel/bestes-amd-mainboard-am5-x870-itx-sff-ncase-m2-asus-rog-strix,3432855.html",
+        "https://elchapuzasinformatico.com/2025/05/amd-zen-7-3d-core-chiplets-cache/",
+        "https://www.gamesradar.com/games/action/after-suicide-squads-usd200-million-flop-and-a-massacre-of-studios-warner-bros-acknowledges-it-has-no-releases-out-its-spending-66-percent-less-on-game-content-and-the-hogwarts-legacy-boom-is-wearing-off/",
+        "https://www.videogamer.com/news/another-gta-6-delay-could-happen-as-respected-insider-says-theres-no-guarantee-for-a-may-2026-release/",
+        "https://www.eurogamer.net/sony-considers-further-price-rises-as-it-braces-for-500m-tariffs-impact",
+        "https://www.reddit.com/r/gaming/comments/1km29tw/what_games_have_bosses_that_attempt_to_take_you/",
+        "https://i.redd.it/0oh6t5twrq0f1.jpeg"
+      ]
+    },
+    {
+      "name": "News",
+      "summary": "Here's a brief summary of the news articles:\n\nThe NHL suspended a Florida Panthers minority owner due to social media posts.  U.S. Transportation Secretary Pete Buttigieg altered his wife's flight after initially claiming the airport was safe.  The Justice Department has shifted priorities for the FBI, emphasizing immigration while scaling back white-collar crime investigations.",
+      "resources": [
+        "https://www.theguardian.com/sport/2025/may/13/doug-cifu-florida-panthers-minority-owner-suspended",
+        "https://www.theguardian.com/us-news/2025/may/14/newark-airport-safety-transportation-secretary-flight",
+        "https://www.reuters.com/world/us/fbi-ordered-prioritize-immigration-cases-over-white-collar-crime-people-familiar-2025-05-12/",
+        "https://apnews.com/article/fluoride-fda-kennedy-cavities-teeth-water-22c5aefeb97c411e2fda0c4754b78cf2",
+        "https://apnews.com/article/el-chapo-sinaloa-cartel-trump-border-harfuch-86572a31c88a216da7cd5f33006a0011"
+      ]
+    }
+  ]
+}
