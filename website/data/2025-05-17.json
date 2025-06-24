@@ -1,0 +1,62 @@
+{
+  "date": "2025-05-17",
+  "topics": [
+    {
+      "name": "NBA",
+      "summary": "Here's a summary of the NBA-related articles:\n\nThe Denver Nuggets may be without Aaron Gordon in their next playoff game due to a hamstring injury. The New York Knicks eliminated the Boston Celtics from championship contention, advancing to the Eastern Conference Finals for the first time since 1999-2000, achieving their largest playoff victory margin. Additionally, Rudy Gobert reportedly broke up with his pregnant girlfriend at the start of the playoffs.",
+      "resources": [
+        "https://tw.sports.yahoo.com/news/nba%E5%AD%A3%E5%BE%8C%E8%B3%BD-%E9%87%91%E5%A1%8A%E5%A4%A7%E5%8B%A2%E4%B8%8D%E5%A6%99-%E7%B5%95%E6%AE%BA%E8%8B%B1%E9%9B%84-aaron-gordon%E5%8F%AF%E8%83%BD%E7%BC%BA%E5%B8%AD%E7%AC%AC7%E6%88%B0-045138803.html",
+        "https://www.phillymag.com/foobooz/2025/05/16/surfside-tea/",
+        "https://www.nbcsports.com/nba/news/2025-nba-draft-rumors-spurs-likely-to-keep-no-2-pick-draft-combine-standouts",
+        "https://www.businessinsider.com/guides/streaming/where-to-watch-wnba-games-live-streams",
+        "https://www.newsweek.com/sports/nba/bucks-may-not-want-rockets-star-potential-giannis-antetokounmpo-trade-report-2073481",
+        "https://www.reddit.com/r/nba/comments/1koijl5/the_boston_celtics_have_been_eliminated_from/",
+        "https://streamable.com/bnljfm",
+        "https://www.reddit.com/r/nba/comments/1kof3f4/tmz_right_at_the_start_of_the_nba_playoffs_rudy/",
+        "https://www.reddit.com/r/nba/comments/1koj2mo/karlanthony_towns_has_reached_a_conference_finals/",
+        "https://v.redd.it/89czvwv5991f1"
+      ]
+    },
+    {
+      "name": "AI",
+      "summary": "Here's a summary of the AI-related articles:\n\nSeveral articles highlight Google's advancements in AI, including the introduction of an AI Mode in the Search bar on both Android and iOS. Some users are having experiences interacting with AI, with some mistaking AI for real people. However, there are concerns about the potential for the overreliance on AI, with some companies experiencing unintended consequences from prioritizing it.",
+      "resources": [
+        "https://www.wcpo.com/sports/baseball/reds/im-never-going-to-give-up-pete-roses-attorney-begins-push-for-hall-of-fame-after-mlb-ban-lifted",
+        "https://www.theverge.com/tech/667872/google-io-android-16-ai",
+        "https://www.ilfattoquotidiano.it/2025/05/16/concerto-ezio-bosso-emergency-bologna-news/7991701/",
+        "http://9to5google.com/2025/05/16/google-ai-mode-search-bar-android-ios/",
+        "https://www.androidpolice.com/circle-to-search-makes-full-screen-search-easier/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kogc4c/thought_i_was_chatting_with_a_real_person_on_the/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kowm4j/honest_and_candid_observations_from_a_data/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1koc8a0/going_all_out_with_aifirst_is_backfiring/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1konrtm/is_this_the_golden_period_of_llms/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1kotb22/what_did_you_achieve_with_ai_this_week/"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "summary": "Here's a summary of the gaming articles:\n\nThe Xbox Games Showcase is scheduled for June 8th, alongside other major announcements. Rivalry Corp. provided an update on its management cease trade order. TCGplayer is offering a 10% store credit on purchases of Pok\u00e9mon and Magic: The Gathering products. Rockstar Games aims to create the best entertainment experience with GTA 6.",
+      "resources": [
+        "https://generacionxbox.com/summer-game-fest-2025-fechas-horarios-y-eventos-que-debes-seguir-si-eres-fan-de-xbox-espana-mexico-chile-argentina-etc/",
+        "https://financialpost.com/globe-newswire/rivalry-provides-update-on-management-cease-trade-order",
+        "https://www.globenewswire.com/news-release/2025/05/16/3083413/0/en/Rivalry-Provides-Update-on-Management-Cease-Trade-Order.html",
+        "https://www.ign.com/articles/deals-for-today-over-10-savings-on-pokmon-and-mtg-tcg-for-today-only",
+        "https://www.pcgamer.com/games/adventure/turns-out-super-mario-64-can-trap-you-in-a-menu-for-2-25-years-as-long-as-you-wait-that-long-beforehand-this-is-a-fair-punishment/",
+        "https://tech.yahoo.com/gaming/articles/former-playstation-exec-says-70-201206067.html?guccounter=1",
+        "https://i.redd.it/sukms9e1td1f1.jpeg",
+        "https://www.gamesradar.com/games/grand-theft-auto/take-two-boss-makes-lofty-gta-6-promises-despite-sky-high-hype-rockstar-games-is-trying-to-create-the-best-thing-anyones-ever-seen-in-entertainment/",
+        "https://i.redd.it/y4kijaru0e1f1.jpeg"
+      ]
+    },
+    {
+      "name": "News",
+      "summary": "Tornadoes and severe storms across the central US and St. Louis have resulted in at least 20 fatalities. Additionally, a bomb explosion outside a reproductive center in Palm Springs caused one death. Meanwhile, US aid cuts have led to food spoilage, impacting millions.",
+      "resources": [
+        "https://edition.cnn.com/2025/05/17/weather/tornadoes-severe-weather-deaths-climate-hnk",
+        "https://thepalmspringspost.com/one-dead-after-bomb-explodes-outside-reproductive-center-in-downtown-palm-springs/",
+        "https://www.reuters.com/world/us-aid-cuts-leave-food-millions-mouldering-storage-2025-05-16/",
+        "https://www.thestar.com/news/world/united-states/at-least-4-dead-after-tornado-and-severe-storm-batters-st-louis-mayor-says/article_94311dad-37e9-502b-bbdc-0633b37f4a3c.html"
+      ]
+    }
+  ]
+}
