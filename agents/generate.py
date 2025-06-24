@@ -5,6 +5,7 @@ from agents.summerizer import summarize_topic
 import json
 from datetime import date
 from pathlib import Path
+from utils.r2_uploader import upload_to_r2
 
 def main():
     mcp = MCP()
@@ -74,6 +75,7 @@ def main():
 
     print(f"✅ Saved: {output_path}")
     mcp.add_today_to_history()
+    upload_to_r2(output_path)
 
 if __name__ == "__main__":
     main()
