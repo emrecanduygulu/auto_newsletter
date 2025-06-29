@@ -1,4 +1,4 @@
-const BASE_URL = "https://pub-aebd78f6ff3c4e27a4847023e97699db.r2.dev";
+const BASE_URL = "https://r2-cors-proxy.ecduygulu.workers.dev";
 
 fetch(`${BASE_URL}/index.json`)
   .then(res => res.json())
