@@ -1,0 +1,6 @@
+name = "r2-cors-proxy"
+main = "src/index.js"
+compatibility_date = "2025-06-20"
+
+[observability]
+enabled = true
