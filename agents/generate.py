@@ -115,6 +115,9 @@ def main():
     index_dates = get_index(s3, bucket_name)
     today = date.today().isoformat()
 
+    # Remove any accidental 'index' entry
+    index_dates = [d for d in index_dates if d != "index"]
+
     if today not in index_dates:
         index_dates.append(today)
         put_index(s3, bucket_name, index_dates)
