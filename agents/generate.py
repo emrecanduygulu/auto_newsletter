@@ -1,5 +1,3 @@
-# generate.py
-
 from mcp.mcp import MCP
 from agents.fetcher import fetch_news
 from agents.reddit_fetcher import fetch_reddit
@@ -11,6 +9,7 @@ from utils.r2_uploader import upload_to_r2
 
 import boto3
 import os
+import requests
 
 # =========================
 # Helper functions for R2
@@ -24,18 +23,19 @@ def get_s3_client():
         aws_secret_access_key=os.environ["R2_SECRET_ACCESS_KEY"],
     )
 
-def get_index(s3, bucket_name):
+def get_index_from_http(bucket_name, region):
+    url = f"https://{region}.r2.cloudflarestorage.com/{bucket_name}/index.json"
+    print(f"Fetching index.json from: {url}")
     try:
-        obj = s3.get_object(Bucket=bucket_name, Key="index.json")
-        data = json.load(obj["Body"])
-        # Filter out any accidental "index" entries
-        return [
-            d for d in data
-            if d and d.lower() != "index"
-        ]
-    except s3.exceptions.NoSuchKey:
-        # No index.json yet
-        return []
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        return response.json()
+    except requests.exceptions.HTTPError as e:
+        if response.status_code == 404:
+            print("index.json not found, starting fresh.")
+            return []
+        else:
+            raise
     except Exception as e:
         print(f"⚠️ Failed to load index.json: {e}")
         return []
@@ -65,8 +65,7 @@ def put_index(s3, bucket_name, index_dates):
 def main():
     mcp = MCP()
 
-    # Check if already generated today
-    # Uncomment these lines if you want to skip duplicate generation
+    # Uncomment if you want to skip duplicate generation
     # if not mcp.should_generate_today():
     #     print("✅ Already generated today's summary.")
     #     return
@@ -142,7 +141,8 @@ def main():
     s3 = get_s3_client()
     bucket_name = os.environ["R2_BUCKET_NAME"]
 
-    index_dates = get_index(s3, bucket_name)
+    # ✅ Corrected line using HTTP
+    index_dates = get_index_from_http(bucket_name, os.environ["R2_REGION"])
     if today_str not in index_dates:
         index_dates.append(today_str)
         put_index(s3, bucket_name, index_dates)
