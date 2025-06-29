@@ -1,3 +1,5 @@
+# generate.py
+
 from mcp.mcp import MCP
 from agents.fetcher import fetch_news
 from agents.reddit_fetcher import fetch_reddit
@@ -10,12 +12,14 @@ from utils.r2_uploader import upload_to_r2
 import boto3
 import os
 
-# Helpers
+# =========================
+# Helper functions for R2
+# =========================
 
 def get_s3_client():
     return boto3.client(
         "s3",
-        endpoint_url=f"https://{os.environ['R2_ACCOUNT_ID']}.r2.cloudflarestorage.com",
+        endpoint_url=f"https://{os.environ['R2_REGION']}.r2.cloudflarestorage.com",
         aws_access_key_id=os.environ["R2_ACCESS_KEY_ID"],
         aws_secret_access_key=os.environ["R2_SECRET_ACCESS_KEY"],
     )
@@ -23,21 +27,46 @@ def get_s3_client():
 def get_index(s3, bucket_name):
     try:
         obj = s3.get_object(Bucket=bucket_name, Key="index.json")
-        return json.load(obj["Body"])
+        data = json.load(obj["Body"])
+        # Filter out any accidental "index" entries
+        return [
+            d for d in data
+            if d and d.lower() != "index"
+        ]
     except s3.exceptions.NoSuchKey:
+        # No index.json yet
         return []
     except Exception as e:
         print(f"⚠️ Failed to load index.json: {e}")
         return []
 
 def put_index(s3, bucket_name, index_dates):
-    body = json.dumps(sorted(index_dates)).encode("utf-8")
-    s3.put_object(Bucket=bucket_name, Key="index.json", Body=body, ContentType="application/json")
+    # Remove "index" if somehow there
+    cleaned = [
+        d for d in index_dates
+        if d and d.lower() != "index"
+    ]
+    cleaned = sorted(set(cleaned))
+    body = json.dumps(cleaned, indent=2).encode("utf-8")
 
+    s3.put_object(
+        Bucket=bucket_name,
+        Key="index.json",
+        Body=body,
+        ContentType="application/json"
+    )
+    print(f"✅ index.json written with {len(cleaned)} entries")
+
+
+# =========================
+# Main generation logic
+# =========================
 
 def main():
     mcp = MCP()
 
+    # Check if already generated today
+    # Uncomment these lines if you want to skip duplicate generation
     # if not mcp.should_generate_today():
     #     print("✅ Already generated today's summary.")
     #     return
@@ -98,38 +127,32 @@ def main():
         day_data["topics"].append(topic_block)
 
     # Save locally
-    output_path = Path("website/data") / f"{day_data['date']}.json"
+    today_str = date.today().isoformat()
+    output_path = Path("website/data") / f"{today_str}.json"
     with open(output_path, "w") as f:
         json.dump(day_data, f, indent=2)
 
     print(f"✅ Saved: {output_path}")
 
-    # Upload to R2
+    # Upload new day file to R2
     upload_to_r2(output_path)
 
-    # ✅ Update index.json in R2
+    # Update index.json in R2
     print("🌐 Updating index.json in R2")
     s3 = get_s3_client()
     bucket_name = os.environ["R2_BUCKET_NAME"]
 
     index_dates = get_index(s3, bucket_name)
-    today = date.today().isoformat()
-
-    # Remove any accidental 'index' entry
-    index_dates = [d for d in index_dates if d != "index"]
-
-    if today not in index_dates:
-        index_dates.append(today)
+    if today_str not in index_dates:
+        index_dates.append(today_str)
         put_index(s3, bucket_name, index_dates)
-        print(f"✅ index.json updated in R2 with {today}")
+        print(f"✅ index.json updated in R2 with {today_str}")
     else:
-        print(f"ℹ️ index.json already contains {today}")
+        print(f"ℹ️ index.json already contains {today_str}")
 
-    # Update history in MCP
+    # Record in MCP history
     mcp.add_today_to_history()
+
 
 if __name__ == "__main__":
     main()
-
-
-
