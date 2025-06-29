@@ -7,12 +7,40 @@ from datetime import date
 from pathlib import Path
 from utils.r2_uploader import upload_to_r2
 
+import boto3
+import os
+
+# Helpers
+
+def get_s3_client():
+    return boto3.client(
+        "s3",
+        endpoint_url=f"https://{os.environ['R2_REGION']}.r2.cloudflarestorage.com",
+        aws_access_key_id=os.environ["R2_ACCESS_KEY_ID"],
+        aws_secret_access_key=os.environ["R2_SECRET_ACCESS_KEY"],
+    )
+
+def get_index(s3, bucket_name):
+    try:
+        obj = s3.get_object(Bucket=bucket_name, Key="index.json")
+        return json.load(obj["Body"])
+    except s3.exceptions.NoSuchKey:
+        return []
+    except Exception as e:
+        print(f"⚠️ Failed to load index.json: {e}")
+        return []
+
+def put_index(s3, bucket_name, index_dates):
+    body = json.dumps(sorted(index_dates)).encode("utf-8")
+    s3.put_object(Bucket=bucket_name, Key="index.json", Body=body, ContentType="application/json")
+
+
 def main():
     mcp = MCP()
 
-  #  if not mcp.should_generate_today():
-   #     print("✅ Already generated today's summary.")
-    #    return
+    # if not mcp.should_generate_today():
+    #     print("✅ Already generated today's summary.")
+    #     return
 
     news_topics = mcp.get_topics()
     news_limit = mcp.get_max_articles()
@@ -69,14 +97,35 @@ def main():
 
         day_data["topics"].append(topic_block)
 
+    # Save locally
     output_path = Path("website/data") / f"{day_data['date']}.json"
     with open(output_path, "w") as f:
         json.dump(day_data, f, indent=2)
 
     print(f"✅ Saved: {output_path}")
-    mcp.add_today_to_history()
+
+    # Upload to R2
     upload_to_r2(output_path)
+
+    # ✅ Update index.json in R2
+    print("🌐 Updating index.json in R2")
+    s3 = get_s3_client()
+    bucket_name = os.environ["R2_BUCKET_NAME"]
+
+    index_dates = get_index(s3, bucket_name)
+    today = date.today().isoformat()
+
+    if today not in index_dates:
+        index_dates.append(today)
+        put_index(s3, bucket_name, index_dates)
+        print(f"✅ index.json updated in R2 with {today}")
+    else:
+        print(f"ℹ️ index.json already contains {today}")
+
+    # Update history in MCP
+    mcp.add_today_to_history()
 
 if __name__ == "__main__":
     main()
+
 
