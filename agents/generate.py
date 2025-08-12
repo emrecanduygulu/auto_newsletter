@@ -9,7 +9,6 @@ from utils.r2_uploader import upload_to_r2
 
 import boto3
 import os
-import requests
 
 # =========================
 # Helper functions for R2
@@ -23,32 +22,20 @@ def get_s3_client():
         aws_secret_access_key=os.environ["R2_SECRET_ACCESS_KEY"],
     )
 
-def get_index_from_http(bucket_name, region):
-    url = f"https://{region}.r2.cloudflarestorage.com/{bucket_name}/index.json"
-    print(f"Fetching index.json from: {url}")
+def get_index(s3, bucket_name):
     try:
-        response = requests.get(url, timeout=10)
-        response.raise_for_status()
-        return response.json()
-    except requests.exceptions.HTTPError as e:
-        if response.status_code == 404:
-            print("index.json not found, starting fresh.")
-            return []
-        else:
-            raise
+        obj = s3.get_object(Bucket=bucket_name, Key="index.json")
+        return json.load(obj["Body"])
+    except s3.exceptions.NoSuchKey:
+        print("⚠️ index.json not found in bucket. Starting fresh.")
+        return []
     except Exception as e:
         print(f"⚠️ Failed to load index.json: {e}")
         return []
 
 def put_index(s3, bucket_name, index_dates):
-    # Remove "index" if somehow there
-    cleaned = [
-        d for d in index_dates
-        if d and d.lower() != "index"
-    ]
-    cleaned = sorted(set(cleaned))
+    cleaned = sorted(set(d for d in index_dates if d and d.lower() != "index"))
     body = json.dumps(cleaned, indent=2).encode("utf-8")
-
     s3.put_object(
         Bucket=bucket_name,
         Key="index.json",
@@ -57,18 +44,12 @@ def put_index(s3, bucket_name, index_dates):
     )
     print(f"✅ index.json written with {len(cleaned)} entries")
 
-
 # =========================
 # Main generation logic
 # =========================
 
 def main():
     mcp = MCP()
-
-    # Uncomment if you want to skip duplicate generation
-    # if not mcp.should_generate_today():
-    #     print("✅ Already generated today's summary.")
-    #     return
 
     news_topics = mcp.get_topics()
     news_limit = mcp.get_max_articles()
@@ -111,7 +92,7 @@ def main():
                     print(f"❌ Reddit fetch failed for '{subreddit_name}': {e}")
 
         if not articles:
-            print(f"⚠️  No articles found for topic: {topic}")
+            print(f"⚠️ No articles found for topic: {topic}")
             continue
 
         print(f"🧠 Summarizing: {topic}")
@@ -136,13 +117,12 @@ def main():
     # Upload new day file to R2
     upload_to_r2(output_path)
 
-    # Update index.json in R2
+    # Update index.json in R2 using S3 only
     print("🌐 Updating index.json in R2")
     s3 = get_s3_client()
     bucket_name = os.environ["R2_BUCKET_NAME"]
 
-    # ✅ Corrected line using HTTP
-    index_dates = get_index_from_http(bucket_name, os.environ["R2_REGION"])
+    index_dates = get_index(s3, bucket_name)
     if today_str not in index_dates:
         index_dates.append(today_str)
         put_index(s3, bucket_name, index_dates)
@@ -152,7 +132,6 @@ def main():
 
     # Record in MCP history
     mcp.add_today_to_history()
-
 
 if __name__ == "__main__":
     main()
