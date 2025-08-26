@@ -1,0 +1,62 @@
+{
+  "date": "2025-08-26",
+  "topics": [
+    {
+      "name": "NBA",
+      "summary": "Warner Bros. is developing a film about Kobe Bryant's draft day. A Michael Jordan and Kobe Bryant card recently sold for a record-breaking price. LeBron James has now spent more time with the Los Angeles Lakers than his first stint with the Cleveland Cavaliers.",
+      "resources": [
+        "https://www.joblo.com/warner-bros-kobe-bryant-film/",
+        "https://www.dukebasketballreport.com/alumni/80394/rashad-mccants-on-cooper-flagg-too-much-too-soon",
+        "https://sports.yahoo.com/article/ten-players-watch-during-fiba-130000360.html",
+        "https://www.newser.com/story/374061/its-the-most-expensive-sports-card-ever-sold.html",
+        "https://streamable.com/gowobr",
+        "https://www.reddit.com/r/nba/comments/1n04ebj/with_this_upcoming_nba_season_lebron_james_has/",
+        "https://www.reddit.com/r/nba/comments/1mzxa3t/cowboys_never_die_nba_superstar_luka_doncic/",
+        "https://streamable.com/jd1t0c",
+        "https://www.reddit.com/r/nba/comments/1mzxuz8/active_players_with_most_allnba_1st_team/"
+      ]
+    },
+    {
+      "name": "AI",
+      "summary": "Here's a summary of the AI-related articles:\n\nA recent MIT study reveals that 95% of enterprise AI projects fail to deliver ROI, often due to excessive time spent verifying results. In contrast, xAI has sued Apple and OpenAI alleging anti-competitive behavior in the AI market. Furthermore, the rise of AI has created concerns, with some AI tools appearing rushed and potentially prioritizing hype over lasting value.",
+      "resources": [
+        "https://www.thelocal.de/20250825/super-relaxed-what-foreign-parents-really-think-of-schools-in-germany",
+        "https://www.focus.de/finanzen/karriere/welche-ki-kompetenzen-sie-2025-unbedingt-brauchen-und-wer-dafuer-zahlen-muss_ef86107b-6b20-4321-b518-bea690fa7137.html",
+        "https://pypi.org/project/ghost-blog-smart/1.0.14/",
+        "https://thefly.com/permalinks/entry.php/id4188066/NTHI-NeOnc-closes-strategic-acquisition-of-advanced-AI-D-bioprinting-IP",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1mzt825/mit_says_95_of_enterprise_ai_fails_but_heres_what/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1n060zm/ai_sycophancy_isnt_just_a_quirk_experts_consider/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1mzr8tg/man_hospitalized_after_swapping_table_salt_with/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1n00idb/are_most_ai_saas_startups_just_wrappers_around_gpt/",
+        "https://www.reddit.com/r/ArtificialInteligence/comments/1mzu6r7/elon_musks_xai_sues_apple_and_openai_over_ai/"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "summary": "Here's a summary of the gaming articles:\n\nKYSONA launched the Jupiter and Mercury Superlight gaming mice to improve performance and hand comfort in competitive games. Starlink is offering its Standard Kit AX Tri Band Router for $175, which supports online gaming and other bandwidth-intensive activities. In other news, Criterion, the studio behind the Need for Speed franchise, has been renamed \"A Battlefield Studio\".",
+      "resources": [
+        "https://www.techpowerup.com/340289/kysona-launches-jupiter-and-mercury-superlight-gaming-mice",
+        "https://decrypt.co/336684/gamdom-launches-next-level-sportsbook-experience",
+        "https://www.globenewswire.com/news-release/2025/08/25/3138527/0/en/Mill-City-Announces-Commencement-of-Options-Trading-on-Cboe-Exchange.html",
+        "https://www.dealnews.com/Starlink-Standard-Kit-AX-Tri-Band-Router-for-175-free-shipping/21762830.html",
+        "https://www.dealnews.com/Starlink-Standard-Kit-AX-Tri-Band-Router-for-175-free-shipping/21762830.html",
+        "https://i.redd.it/inzo7b7as7lf1.jpeg",
+        "https://www.gamesradar.com/games/rpg/baldurs-gate-3-dev-says-aaa-is-perversely-fascinated-by-indie-games-because-those-devs-still-understand-how-to-make-good-ideas-that-arent-reliant-on-data/",
+        "https://www.ign.com/articles/on-borderlands-3-in-our-worst-hours-it-sometimes-felt-like-parody-gearbox-explains-borderlands-4s-more-grounded-story",
+        "https://www.gamesradar.com/platforms/ps5/architect-of-sonys-disastrous-live-service-push-says-failures-are-good-actually-because-now-theres-more-rigorous-and-more-frequent-testing/",
+        "https://www.thegamer.com/burnout-creator-need-for-speed-developer-criterion-renamed-battlefield-studio/"
+      ]
+    },
+    {
+      "name": "News",
+      "summary": "Here's a brief summary of the news articles:\n\nA judge has temporarily halted the deportation of Abrego Garcia. Donald Trump has signed an order to criminally charge individuals who burn the US flag during protests, and is also escalating his battle with the central bank by claiming he has fired Fed governor Lisa Cook. Additionally, an Oklahoma man was arrested after his stepdaughter gave birth, with the mother facing charges.",
+      "resources": [
+        "https://www.bbc.com/news/articles/c04ryk6ed5lo",
+        "https://www.theguardian.com/us-news/2025/aug/25/trump-flag-burning-executive-order",
+        "https://www.theguardian.com/us-news/2025/aug/25/epstein-accuser-virginia-giuffres-memoir-to-be-published-posthumously",
+        "https://www.nbcnews.com/news/us-news/oklahoma-man-arrested-11-year-old-stepdaughter-gives-birth-mother-char-rcna226986",
+        "https://www.cnn.com/2025/08/25/business/trump-fire-fed-governor"
+      ]
+    }
+  ]
+}
